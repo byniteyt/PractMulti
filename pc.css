@@ -1,0 +1,110 @@
+@media screen and (min-width:850px){
+#bigText {
+    height: 75%;
+    width: 100%;
+    text-size-adjust: auto;
+    font-family:"BlackMultimedia",sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+#lema{
+    font-size: 9px;
+}
+#Flex2{
+    height: 65%;
+    width: 100%;
+    justify-content: left;
+    flex-direction: row;
+    padding-top: 10px;
+    background-size: 100% 100%;
+    padding-right: 0;
+}
+#contenido{
+    width: 80%;
+    height: 100%;
+    font-size: 1em;
+        padding: 0;
+        padding-top: 15px;
+    padding-bottom: 20px;
+        padding-left: 30px;
+}
+#ganancias{
+    height: 105%;
+    width: 20%;
+}
+
+.todo{
+    height: 100%;
+    overflow: hidden;
+}
+.mini{
+    font-size: 1em;
+    height: 25%;
+}
+.menus{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding:0  10px;
+    flex-direction:row;
+}
+.footer{
+    height: 20%;
+    background-color:gray ;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+}
+.logo{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    }
+.titulo {
+    width: 100%;
+    height: 20%;
+    border: 1px dotted blue;
+    background-image: url("i/fT.jpg");
+    background-size: 93% 99%;
+    margin: 0;
+    padding: 30px 50px;
+    color: darkorange;
+    font-size: 1.2em;
+}
+#preguntas {
+    padding: 20px;
+    margin: 20px auto;
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    font-family:"BlackMultimedia",sans-serif;
+}
+#preguntas h2 {
+    text-align: center;
+    color: #FDFEFE;
+    margin-bottom: 20px;
+    font-family:"BlackMultimedia",sans-serif;
+}
+#preguntas h3 {
+    text-align: left;
+    color: #FDFEFE;
+    margin-bottom: 20px;
+    font-family:"BlackMultimedia",sans-serif;
+}
+
+#preguntas p {
+    text-align: left;
+    color: #FDFEFE;
+    margin-bottom: 20px;
+    font-family:"BlackMultimedia",sans-serif;
+}
+
+}
