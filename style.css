@@ -6,16 +6,16 @@ html, body {
     font-family: BlackMultimedia;
     width: 100%;
     height: 100%;
-    margin: 0px;
+    margin: 0;
     padding: 0;
 } 
 #Flex2{
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     height: 100%;
     display: flex;
     background:url("i/f1.png");
-    background-size: 89% 100%;
+    background-size: 100% 100%;
 
 }
 #bigText {
@@ -59,12 +59,10 @@ html, body {
     padding: 5%;
 }
 #contenido{
-	font-family:"BlackMultimedia",sans-serif;
 	color: white;
 	font-size: 0.8em;
 	width: 100%;
 	height: 60%;
-	overflow: auto;
     padding-left: 20px;
     padding-right: 200px;
 }
@@ -79,7 +77,6 @@ html, body {
 #ganancias{
 	display: inline;
 	text-align: center;
-	background-color: green;
 	height: 50%;
 	width: 100%;
 	overflow: auto;
@@ -102,8 +99,8 @@ html, body {
     flex-direction:row;
 }
 .titulo {
-    width: 100%;
     height: 10%;
+    width: 100%;
     border: 1px dotted blue;
     background-image: url("i/fT.jpg");
     background-size: 100%;
