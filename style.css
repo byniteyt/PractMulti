@@ -35,6 +35,7 @@ html, body {
     font-size: 5px;
 }
 #OFERTA1 {
+    width: 50px;
     color: white;
     background-image: url("i/esp.jpg");
     background-size: 100% 100%;
