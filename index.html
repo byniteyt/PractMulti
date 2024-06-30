@@ -165,13 +165,34 @@
                 	<a href="https://www.instagram.com/i.h.g.c.oficial/"style="color: whitesmoke">Instagram</a>
                 </div>
                     <div id="comentarios">
-                        <h2>Deja tu comentario</h2>
-                        <form>
-                            <input type="email" placeholder="Correo electrónico" required><br>
-                            <textarea placeholder="Escribe tu comentario" required></textarea><br>
-                            <input type="submit" value="Enviar comentario">
-                        </form>
-                    </div>
+					    <h2>Deja tu comentario</h2>
+					    <form id="comentarioForm">
+					        <input type="email" id="email" placeholder="Correo electrónico" required><br>
+					        <textarea id="mensaje" placeholder="Escribe tu comentario" required></textarea><br>
+					        <input type="submit" value="Enviar comentario">
+					    </form>
+					    <div id="comentariosPublicados">
+					        <h3>Comentarios publicados</h3>
+					    </div>
+					</div>
+
+					<script>
+					    document.getElementById('comentarioForm').addEventListener('submit', function(event) {
+					        event.preventDefault();
+					        					      
+					        var email = document.getElementById('email').value;
+					        var mensaje = document.getElementById('mensaje').value;
+					        
+					        var nuevoComentario = document.createElement('div');
+					        nuevoComentario.classList.add('comentario');
+					        
+					        nuevoComentario.innerHTML = '<p><strong>' + email + ':</strong> ' + mensaje + '</p>';
+					        
+					        document.getElementById('comentariosPublicados').appendChild(nuevoComentario);
+					        
+					        document.getElementById('comentarioForm').reset();
+					    });
+					</script>
                 </div>
 
 				<div id="ganancias">
