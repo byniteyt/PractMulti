@@ -147,7 +147,7 @@ html, body {
     color: #333;
     margin-bottom: 20px;
 }
-#comentarios input[type="email"],
+#comentarios input[type="email"]
 #comentarios textarea {
     width: calc(100% - 20px);
     padding: 10px;
@@ -156,8 +156,6 @@ html, body {
     border-radius: 4px;
     font-size: 16px;
     box-sizing: border-box;
-}
-#comentarios textarea {
     height: 150px;
 }
 #comentarios input[type="submit"] {
