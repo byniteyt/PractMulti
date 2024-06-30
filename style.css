@@ -59,6 +59,7 @@ html, body {
     padding: 5%;
 }
 #contenido{
+    overflow: auto;
 	color: white;
 	font-size: 0.8em;
 	width: 100%;
