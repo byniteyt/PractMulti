@@ -29,9 +29,22 @@
     font-size: 1em;
 }
 #ganancias{
+    flex-direction: column;
     font-size: 1em;
     height: 98.7%;
     width: 20%;
+}
+#OFERTA1 {
+    width: 100%;
+}
+#OFERTA2 {
+    width: 100%;
+}
+#OFERTA3 {
+    width:100%;
+}
+#OFERTA4 {
+    width: 100%;
 }
 .mini{
     font-size: 1em;
