@@ -22,11 +22,9 @@ html, body {
     height: 75%;
     width: 100%;
     text-size-adjust: auto;
-    font-family:"BlackMultimedia",sans-serif;
     font-weight: bold;
     align-items: center;
     font-size: 1em;
-    color: darkorange;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -100,7 +98,6 @@ html, body {
 .menus{
 	height: 25%;
 	display: flex;
-    align-items: top;
     padding:0  10px;
     flex-direction:row;
 }

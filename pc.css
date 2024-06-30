@@ -3,10 +3,8 @@
     height: 75%;
     width: 100%;
     text-size-adjust: auto;
-    font-family:"BlackMultimedia",sans-serif;
     font-weight: bold;
     font-size: 2em;
-    color: darkorange;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -39,10 +37,7 @@
     width: 20%;
 }
 
-.todo{
-    height: 100%;
-    overflow: hidden;
-}
+
 .mini{
     font-size: 1em;
     height: 25%;
@@ -85,26 +80,22 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
-    font-family:"BlackMultimedia",sans-serif;
 }
 #preguntas h2 {
     text-align: center;
     color: #FDFEFE;
     margin-bottom: 20px;
-    font-family:"BlackMultimedia",sans-serif;
 }
 #preguntas h3 {
     text-align: left;
     color: #FDFEFE;
     margin-bottom: 20px;
-    font-family:"BlackMultimedia",sans-serif;
 }
 
 #preguntas p {
     text-align: left;
     color: #FDFEFE;
     margin-bottom: 20px;
-    font-family:"BlackMultimedia",sans-serif;
 }
 
 }
