@@ -116,8 +116,8 @@ html, body {
 #preguntas {
     padding: 20px;
     margin: 20px auto;
-    width: 75%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 15px;
@@ -140,39 +140,6 @@ html, body {
     color: #FDFEFE;
     margin-bottom: 20px;
     font-family:"BlackMultimedia",sans-serif;
-}
-#comentarios {
-    background-color: darkgrey;
-    padding: 20px;
-    
-    max-width: 1180px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-#comentarios h2 {
-    text-align: left;
-    color: #333;
-    margin-bottom: 20px;
-}
-#comentarios input[type="email"]
-#comentarios textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    box-sizing: border-box;
-    height: 150px;
-}
-#comentarios input[type="submit"] {
-    background-color: darkblue;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 16px;
 }
 #disclaimer {
     width: calc(100% - 20px);
@@ -205,6 +172,7 @@ html, body {
     height: 90px;
 }
 #rs{
+    height: auto;
     color: white;
     padding-bottom: 10px;
     display: flex;
