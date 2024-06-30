@@ -12,6 +12,7 @@ html, body {
 #Flex2{
     flex-direction: column;
     width: 100%;
+    height: 100%;
     display: flex;
     background:url("i/f1.png");
     background-size: 100% 100%;
@@ -33,24 +34,28 @@ html, body {
     font-size: 5px;
 }
 #OFERTA1 {
+    width: 25%;
     color: white;
     background-image: url("i/esp.jpg");
     background-size: 100% 100%;
-    padding: 5%;
+    padding: 2%;
 }
 #OFERTA2 {
+    width: 25%;
     color: white;
     background-image: url("i/fel.jpg");
     background-size: 100% 100%;
     padding: 5%;
 }
 #OFERTA3 {
+    width: 25%;
     color: white;
     background-image: url("i/obs.jpg");
     background-size: 100% 100%;
     padding: 5%;
 }
 #OFERTA4 {
+    width: 25%;
     color: white;
     background-image: url("i/creador.jpg");
     background-size: 100% 100%;
@@ -73,12 +78,14 @@ html, body {
 	justify-content: space-evenly;
 }
 #ganancias{
-	display: inline;
+	display: flex;
+    flex-direction: row;
 	text-align: center;
-	height: 50%;
+	height: fit-content;
 	width: 100%;
 	overflow: auto;
 	position: relative;
+    font-size: 0.5em;
 }
 .todo{
 	padding: 0;
