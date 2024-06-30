@@ -12,7 +12,6 @@ html, body {
 #Flex2{
     flex-direction: column;
     width: 100%;
-    height: 100%;
     display: flex;
     background:url("i/f1.png");
     background-size: 100% 100%;
@@ -129,17 +128,12 @@ html, body {
     margin-bottom: 20px;
     font-family:"BlackMultimedia",sans-serif;
 }
-
 #preguntas p {
     text-align: left;
     color: #FDFEFE;
     margin-bottom: 20px;
     font-family:"BlackMultimedia",sans-serif;
 }
-
-
-
-
 #comentarios {
     background-color: #f9f9f9;
     padding: 20px;
@@ -148,13 +142,11 @@ html, body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 #comentarios h2 {
     text-align: left;
     color: #333;
     margin-bottom: 20px;
 }
-
 #comentarios input[type="email"],
 #comentarios textarea {
     width: calc(100% - 20px);
@@ -165,11 +157,9 @@ html, body {
     font-size: 16px;
     box-sizing: border-box;
 }
-
 #comentarios textarea {
     height: 150px;
 }
-
 #comentarios input[type="submit"] {
     background-color: darkblue;
     color: white;
@@ -179,7 +169,6 @@ html, body {
     border-radius: 4px;
     font-size: 16px;
 }
-
 #disclaimer {
     width: calc(100% - 20px);
     padding: 10px;
@@ -187,12 +176,11 @@ html, body {
     font-size: 12px;
     text-align: center;
 }
-    #discalimer p {
-        text-align: center;
-        color: #FDFEFE;
-        margin-bottom: 20px;               
-    }
-
+#discalimer p {
+    text-align: center;
+    color: #FDFEFE;
+    margin-bottom: 20px;               
+}
 #flexlogo {
     background-color: dimgray;
     width: calc(100% - 20px);
