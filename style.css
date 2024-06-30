@@ -35,6 +35,7 @@ html, body {
     font-size: 5px;
 }
 #OFERTA1 {
+    width: 50px;
     color: white;
     background-image: url("i/esp.jpg");
     background-size: 100% 100%;
@@ -87,6 +88,7 @@ html, body {
 	padding: 0;
 	height: 100%;
     width: 100%;
+	overflow: hidden;
 }
 .mini{
 	font-size: 0.7em;
