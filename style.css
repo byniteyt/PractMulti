@@ -171,13 +171,3 @@ html, body {
     width: 90px;
     height: 90px;
 }
-#rs{
-    height: auto;
-    color: white;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1em;
-    flex-direction: column;
-}
